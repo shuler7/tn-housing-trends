@@ -15,3 +15,4 @@ zhvi_zip <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Z
 
 # neighborhood data (very large)
 zhvi_nbd <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Neighborhood_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv?t=1772201941")
+write.csv(zhvi_nbd, file = "raw_data/zhvi_nbds.csv")
