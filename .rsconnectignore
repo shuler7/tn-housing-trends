@@ -1,0 +1,7 @@
+raw_data/
+scripts/
+data/nbds_join.csv
+
+.Rhistory
+.Rproj.user/
+.env
