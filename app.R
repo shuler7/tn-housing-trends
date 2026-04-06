@@ -180,7 +180,7 @@ server <- function(input, output, session) {
       addPolygons(
         group = "2-year % change",
         fillColor = ~pal_change(clamp_vals(prev_2y_perc, lo, hi)),
-        fillOpacity = 0.8,
+        fillOpacity = 0.6,
         color = "white",
         weight = 1,
         popup = pops,
@@ -191,7 +191,7 @@ server <- function(input, output, session) {
       addPolygons(
         group = "Current price",
         fillColor = ~pal_current(clamp_vals(current, lo2, hi2)),
-        fillOpacity = 0.8,
+        fillOpacity = 0.6,
         color = "white",
         weight = 1,
         popup = pops,
